@@ -6,5 +6,10 @@
 * Day2
   * Three types of ML
     * Supervised Learning, Unsupervised Learning, Reinforcement Learning
-  * 
+* Day3
+  * ML Process	
+    * Preprocessing: missing value, outlier, standardisation
+    * Define goal: regression/classification problem, predictor and target value
+    * Evaluation: regression -> RMSE, MAE, R-square; classification -> Accuracy, F1 score, AUC
+    * Build and Tune Model
 
