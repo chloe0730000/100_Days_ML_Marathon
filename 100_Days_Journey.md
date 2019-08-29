@@ -13,3 +13,9 @@
     * Evaluation: regression -> RMSE, MAE, R-square; classification -> Accuracy, F1 score, AUC
     * Build and Tune Model
 
+* Day4
+
+  * Explore Data Analysis (EDA)
+
+    <img src='Screenshots/data_analysis_process.png'>
+
