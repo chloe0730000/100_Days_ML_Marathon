@@ -19,3 +19,13 @@
 
     <img src='Screenshots/data_analysis_process.png'>
 
+* Day5
+
+  * Read and write file
+
+  * `ndarray`, a fast and space-efficient multidimensional array providing vectorized arithmetic operations
+
+    <img src='Screenshots/data_loading_efficiency.png'>
+
+    
+
