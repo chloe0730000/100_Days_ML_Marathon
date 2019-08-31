@@ -29,3 +29,6 @@
 
     
 
+* Day6
+  * Data Preprocessing
+  * Label Encoding vs One hot encode
