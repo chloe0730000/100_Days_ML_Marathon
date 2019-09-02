@@ -3,9 +3,11 @@
 * Day 1
   * Discovery journey
     * Find the problem -> prototype solution -> improve -> sharing -> practice -> participate competition
+  
 * Day2
   * Three types of ML
     * Supervised Learning, Unsupervised Learning, Reinforcement Learning
+  
 * Day3
   * ML Process	
     * Preprocessing: missing value, outlier, standardisation
@@ -27,8 +29,12 @@
 
     <img src='Screenshots/data_loading_efficiency.png'>
 
-    
-
 * Day6
   * Data Preprocessing
   * Label Encoding vs One hot encode
+  
+* Day7
+
+  * Variable types: numerical & categorical
+  * 
+
