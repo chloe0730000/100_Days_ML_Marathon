@@ -36,5 +36,10 @@
 * Day7
 
   * Variable types: numerical & categorical
-  * 
+
+* Day8
+
+  * EDA
+    * mean, median, mode
+    * min, max, range, quartiles, variance, standard deviation
 
