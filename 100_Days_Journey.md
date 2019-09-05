@@ -43,3 +43,9 @@
     * mean, median, mode
     * min, max, range, quartiles, variance, standard deviation
 
+* Day9
+  * Outlier
+    * How to check?
+      * check summary statistics (avg, sd, median, IQR)
+      * plot: boxplot for univariate feature and scatterplot for multivariate
+    * How to deal with outlier: replace with median/average, delete all columns, create new columns, etc
