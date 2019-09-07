@@ -49,3 +49,8 @@
       * check summary statistics (avg, sd, median, IQR)
       * plot: boxplot for univariate feature and scatterplot for multivariate
     * How to deal with outlier: replace with median/average, delete all columns, create new columns, etc
+
+* Day10
+  * Outlier with code two methods
+    * change the range (set min and max and force the outlier to be min value or max value)
+    * directly exclude the data
