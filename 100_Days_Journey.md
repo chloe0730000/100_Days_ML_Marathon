@@ -54,3 +54,7 @@
   * Outlier with code two methods
     * change the range (set min and max and force the outlier to be min value or max value)
     * directly exclude the data
+* Day11
+  * whether we should normalise the continuous data?
+    * For regression model: affect
+    * For tree-based model: no effect
