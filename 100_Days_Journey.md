@@ -58,3 +58,7 @@
   * whether we should normalise the continuous data?
     * For regression model: affect
     * For tree-based model: no effect
+* Day12
+  * standard scaler vs minmax scaler
+    * standard scaler -> not easy influence by outlier
+    *  minmax scaler -> easy influence by outlier -> suitable for data already deal with outlier
