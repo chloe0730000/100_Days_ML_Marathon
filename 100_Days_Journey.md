@@ -62,3 +62,8 @@
   * standard scaler vs minmax scaler
     * standard scaler -> not easy influence by outlier
     *  minmax scaler -> easy influence by outlier -> suitable for data already deal with outlier
+* Day13
+  * Dataframe manipulation
+    * column to row: pd.melt(df)
+    * row to column: pd.pivot()
+    * regex filter: df.filter(regex=)
