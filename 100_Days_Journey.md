@@ -1,6 +1,11 @@
 # 100 Days Note
 
+* Day1-13: Data Preprocessing
+  
+  Day14- : EDA
+  
 * Day 1
+  
   * Discovery journey
     * Find the problem -> prototype solution -> improve -> sharing -> practice -> participate competition
   
@@ -67,3 +72,5 @@
     * column to row: pd.melt(df)
     * row to column: pd.pivot()
     * regex filter: df.filter(regex=)
+* Day14 EDA
+  * Correlation Coefficient: -1~1 and measure two random variables linear relationship
