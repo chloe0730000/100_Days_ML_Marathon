@@ -74,3 +74,8 @@
     * regex filter: df.filter(regex=)
 * Day14 EDA
   * Correlation Coefficient: -1~1 and measure two random variables linear relationship
+    * use scatter plot to visualise the relationship
+  * np.corrcoef
+* Day15 
+  * Correlation
+  * df.corr()
