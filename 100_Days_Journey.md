@@ -89,3 +89,7 @@
     * Histogram will bias if the bin setting is not accurate -> KDE no this issue
     * Histogram distribution is not smooth
 
+* Day17 Discretising (連續型變數離散化)
+  * reduce the impact of outlier
+  * 等寬劃分: pd.cut
+  * 等頻劃分: pd.qcut
