@@ -79,3 +79,13 @@
 * Day15 
   * Correlation
   * df.corr()
+* Day16 
+  * Kernel density estimation -> computation intensive
+  * plt.style.use(‘default’) # 不需設定就會使⽤用預設
+    plt.style.use('ggplot')
+    plt.style.use(‘seaborn’) # 或採⽤用 seaborn 套件繪圖
+  * [Python graph gallery](<https://python-graph-gallery.com/>)
+  * [KDE vs Histogram](<https://blog.csdn.net/unixtch/article/details/78556499>)
+    * Histogram will bias if the bin setting is not accurate -> KDE no this issue
+    * Histogram distribution is not smooth
+
