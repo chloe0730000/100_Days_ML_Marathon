@@ -93,3 +93,5 @@
   * reduce the impact of outlier
   * 等寬劃分: pd.cut
   * 等頻劃分: pd.qcut
+* Day18 Discretising
+  * discretising + groupby to see the trend
