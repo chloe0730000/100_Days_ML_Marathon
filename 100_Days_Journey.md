@@ -95,3 +95,5 @@
   * 等頻劃分: pd.qcut
 * Day18 Discretising
   * discretising + groupby to see the trend
+* Day19 Subplot
+  * sns.jointplot
