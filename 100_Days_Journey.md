@@ -97,3 +97,6 @@
   * discretising + groupby to see the trend
 * Day19 Subplot
   * sns.jointplot
+* Day20 Pairplot, Heatmap
+  * sns.pairplot(df, hue = 'continent')
+  * 
