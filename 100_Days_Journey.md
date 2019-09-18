@@ -99,4 +99,5 @@
   * sns.jointplot
 * Day20 Pairplot, Heatmap
   * sns.pairplot(df, hue = 'continent')
-  * 
+* Day21 Logistic Regression
+  * remove column appear in test not train -> app_train, app_test = app_train.align(app_test, join = 'inner', axis = 1)
