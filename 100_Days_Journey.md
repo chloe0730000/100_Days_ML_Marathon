@@ -90,14 +90,41 @@
     * Histogram distribution is not smooth
 
 * Day17 Discretising (連續型變數離散化)
+
   * reduce the impact of outlier
   * 等寬劃分: pd.cut
   * 等頻劃分: pd.qcut
+
 * Day18 Discretising
+
   * discretising + groupby to see the trend
+
 * Day19 Subplot
+
   * sns.jointplot
+
 * Day20 Pairplot, Heatmap
+
   * sns.pairplot(df, hue = 'continent')
+
 * Day21 Logistic Regression
+
   * remove column appear in test not train -> app_train, app_test = app_train.align(app_test, join = 'inner', axis = 1)
+
+* Day22 Feature Engineer
+
+  * count encoding -> sensitive to outlier
+
+  * label count encoding -> not sensitive to outlier and also rank category by count (combination of label encoding and count encoding)
+
+  * target encoding ->  Encode categorical variables by their ratio of target -> avoid overfit
+
+  * box-cox transformation -> solve normality problems (non-normal data)
+
+    
+
+  <img src= "screenshots/feature_engineer.png">
+
+  
+
+  <img src="screenshots/ml_process.png">
