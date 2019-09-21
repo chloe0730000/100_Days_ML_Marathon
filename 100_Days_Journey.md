@@ -128,3 +128,9 @@
   
 
   <img src="screenshots/ml_process.png">
+
+* Day23 Remove Skewness
+  * purpose of remove skewness -> make the distribution toward normality
+  * Methods: take log, sqrt, boxcox
+    * Boxcox: 使⽤用 box-cox 分布去偏時，除了了注意 λ 參參數要介於 **0**
+      到 **0.5** 之間 (0=log transform, 0.5 = sqrt)，並且要注意轉換前的數值不可⼩小於等於 **0**
