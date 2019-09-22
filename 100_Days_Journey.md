@@ -134,3 +134,19 @@
   * Methods: take log, sqrt, boxcox
     * Boxcox: 使⽤用 box-cox 分布去偏時，除了了注意 λ 參參數要介於 **0**
       到 **0.5** 之間 (0=log transform, 0.5 = sqrt)，並且要注意轉換前的數值不可⼩小於等於 **0**
+
+* Day24 Categorical variables processing
+
+  * auto generate mapping code: 
+
+    class_mapping = {label:idx for idx,label in enumerate(set(df['class label']))}
+
+  * one hot encoding / label encoding
+
+  * Tree model no need use one hot encode using label encoding is enough since they don't treat number as ordering (ex:2>1)
+
+  * Logistic regression: one hot encoding better; GradientBoostingRegressor/linear regression: label encoding -> but different dataset might have diff results
+
+  * Pros and Cons
+
+    <img src="screenshots/categorical_variable_encoding.png">
