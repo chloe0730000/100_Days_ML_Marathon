@@ -133,9 +133,9 @@
   * purpose of remove skewness -> make the distribution toward normality
   * Methods: take log, sqrt, boxcox
     * Boxcox: 使⽤用 box-cox 分布去偏時，除了了注意 λ 參參數要介於 **0**
-      到 **0.5** 之間 (0=log transform, 0.5 = sqrt)，並且要注意轉換前的數值不可⼩小於等於 **0**
+      到 **0.5** 之間 (0=log transform, 0.5 = sqrt)，並且要注意轉換前的數值不可⼩小於等於 **0** (if <=0, then add 0.01-1 to original value)
 
-* Day24 Categorical variables processing
+* Day24 Categorical variables processing - label encoding and one-hot encode
 
   * auto generate mapping code: 
 
@@ -150,3 +150,9 @@
   * Pros and Cons
 
     <img src="screenshots/categorical_variable_encoding.png">
+
+* Day25 Categorical variables processing - Mean encoding
+  * 我们可以尝试使用**平均数编码（mean encoding）**的编码方法，在贝叶斯的架构下，利用所要预测的应变量（target variable），有监督地确定最适合这个定性特征的编码方式。在Kaggle的数据竞赛中，这也是一种常见的提高分数的手段。
+  * when to use: when the variable highly correlated with the target or when a variable that has many categories
+  * powerful encoding methods but probably will overfit (use smooth methods) -> use cross validation check score
+  * 
