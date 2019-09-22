@@ -155,4 +155,3 @@
   * 我们可以尝试使用**平均数编码（mean encoding）**的编码方法，在贝叶斯的架构下，利用所要预测的应变量（target variable），有监督地确定最适合这个定性特征的编码方式。在Kaggle的数据竞赛中，这也是一种常见的提高分数的手段。
   * when to use: when the variable highly correlated with the target or when a variable that has many categories
   * powerful encoding methods but probably will overfit (use smooth methods) -> use cross validation check score
-  * 
