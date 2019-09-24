@@ -157,7 +157,17 @@
   * powerful encoding methods but probably will overfit (use smooth methods) -> use cross validation check score
 
 * Day 26  Categorical variables processing - Count encoding, feature hash
+
   * 計數編碼是計算類別在資料中的出現次數，當⽬目標平均值與類別筆數呈正/負相關時，可以考慮使⽤用
   * Can apply together with label encoding
   * 觀察欄位相異值數量:`df.select_dtypes(include=["object"]).apply(pd.Series.nunique)`
 
+* Day27 Time series features
+
+  <img src="screenshots/time_series_processing.png">
+
+  <img src="screenshots/time_series_processing2.png">
+
+  * strptime (將⽂文字解析成時間物件), strftime (轉出時間物件各欄欄位成⽂文字) for datetime package
+    * datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") -> change to string
+    * datetime.datetime.strptime("2014-12-31 18:20:10", "%Y-%m-%d %H:%M:%S") -> change to datetime format
