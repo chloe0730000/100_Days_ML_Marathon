@@ -71,7 +71,7 @@
   * Dataframe manipulation
     * column to row: pd.melt(df)
     * row to column: pd.pivot()
-    * regex filter: df.filter(regex=)
+    * regex filter: `df.filter(regex=)`
 * Day14 EDA
   * Correlation Coefficient: -1~1 and measure two random variables linear relationship
     * use scatter plot to visualise the relationship
@@ -109,7 +109,7 @@
 
 * Day21 Logistic Regression
 
-  * remove column appear in test not train -> app_train, app_test = app_train.align(app_test, join = 'inner', axis = 1)
+  * remove column appear in test not train -> app_train, `app_test = app_train.align(app_test, join = 'inner', axis = 1)`
 
 * Day22 Feature Engineer
 
@@ -155,3 +155,9 @@
   * 我们可以尝试使用**平均数编码（mean encoding）**的编码方法，在贝叶斯的架构下，利用所要预测的应变量（target variable），有监督地确定最适合这个定性特征的编码方式。在Kaggle的数据竞赛中，这也是一种常见的提高分数的手段。
   * when to use: when the variable highly correlated with the target or when a variable that has many categories
   * powerful encoding methods but probably will overfit (use smooth methods) -> use cross validation check score
+
+* Day 26  Categorical variables processing - Count encoding, feature hash
+  * 計數編碼是計算類別在資料中的出現次數，當⽬目標平均值與類別筆數呈正/負相關時，可以考慮使⽤用
+  * Can apply together with label encoding
+  * 觀察欄位相異值數量:`df.select_dtypes(include=["object"]).apply(pd.Series.nunique)`
+
