@@ -171,3 +171,11 @@
   * strptime (將⽂文字解析成時間物件), strftime (轉出時間物件各欄欄位成⽂文字) for datetime package
     * datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") -> change to string
     * datetime.datetime.strptime("2014-12-31 18:20:10", "%Y-%m-%d %H:%M:%S") -> change to datetime format
+
+* Day28 特徵組合 (數值與數值)
+
+  * Feature cross to solve "nonlinear" problem
+  
+  * Create relevant features which are able to make model perform better
+  
+    
