@@ -59,26 +59,32 @@
   * Outlier with code two methods
     * change the range (set min and max and force the outlier to be min value or max value)
     * directly exclude the data
+  
 * Day11
   * whether we should normalise the continuous data?
     * For regression model: affect
     * For tree-based model: no effect
+  
 * Day12
   * standard scaler vs minmax scaler
     * standard scaler -> not easy influence by outlier
     *  minmax scaler -> easy influence by outlier -> suitable for data already deal with outlier
+  
 * Day13
   * Dataframe manipulation
     * column to row: pd.melt(df)
     * row to column: pd.pivot()
     * regex filter: `df.filter(regex=)`
+  
 * Day14 EDA
   * Correlation Coefficient: -1~1 and measure two random variables linear relationship
     * use scatter plot to visualise the relationship
   * np.corrcoef
+  
 * Day15 
   * Correlation
   * df.corr()
+  
 * Day16 
   * Kernel density estimation -> computation intensive
   * plt.style.use(‘default’) # 不需設定就會使⽤用預設
@@ -175,7 +181,10 @@
 * Day28 特徵組合 (數值與數值)
 
   * Feature cross to solve "nonlinear" problem
-  
   * Create relevant features which are able to make model perform better
   
-    
+* Day29 特徵組合 (數值與類別)
+
+  *  群聚編碼 -> groupby mean, max, median, count
+
+  
