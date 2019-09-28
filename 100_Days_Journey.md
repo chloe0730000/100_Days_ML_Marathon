@@ -187,4 +187,13 @@
 
   *  群聚編碼 -> groupby mean, max, median, count
 
+* Day30 Feature Selection
+
+  * Methods
+    * Filter: ex: for features' correlation coefficient less than cetrain threshold will be filtered out
+    * Wrapper
+    * Embedded: use ML methods ex: Lasso, GDBT, XGBOOST, permutation, RandomForestRegressor
+
+  <img src = "screenshots/feature_selection.png">
+
   
