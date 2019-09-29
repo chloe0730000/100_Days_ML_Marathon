@@ -196,4 +196,19 @@
 
   <img src = "screenshots/feature_selection.png">
 
+* Day31 Feature Importance for tree based methods / [Permutation Importance](<https://www.kaggle.com/dansbecker/permutation-importance?utm_medium=email&utm_source=mailchimp&utm_campaign=ml4insights>) for all ML models
+
+  * 樹狀模型的特徵重要性：分支次數, 特徵覆蓋度, 損失函數降低量
+  * sklearn 樹狀狀模型與 Xgboost 的特徵重要性，最⼤大差異就是在 **sklearn** 只有精準度最低的「分⽀支次數」
+
+  <img src="screenshots/feature_optimisation_flow.png">
+
+  ```python
+  for c in df.columns:
+      df[c] = df[c].fillna(-1)
+      if df[c].dtype == 'object':
+          df[c] = LEncoder.fit_transform(list(df[c].values))
+      df[c] = MMEncoder.fit_transform(df[c].values.reshape(-1, 1))
+  ```
+
   
