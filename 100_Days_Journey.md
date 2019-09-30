@@ -2,7 +2,7 @@
 
 * Day1-13: Data Preprocessing
   
-  Day14- : EDA
+  Day14- 32: EDA-Feature Importance
   
 * Day 1
   
@@ -135,11 +135,11 @@
 
   <img src="screenshots/ml_process.png">
 
-* Day23 Remove Skewness
+* Day23 Remove Skewness (example: [box-cox](https://github.com/chloe0730000/100_Days_ML_Marathon/blob/master/Lecture_Code/Day_023_Reduce_Skewness.ipynb))
   * purpose of remove skewness -> make the distribution toward normality
   * Methods: take log, sqrt, boxcox
     * Boxcox: 使⽤用 box-cox 分布去偏時，除了了注意 λ 參參數要介於 **0**
-      到 **0.5** 之間 (0=log transform, 0.5 = sqrt)，並且要注意轉換前的數值不可⼩小於等於 **0** (if <=0, then add 0.01-1 to original value)
+      到 **0.5** 之間 (0=log transform, 0.5 = sqrt)，並且要注意轉換前的數值不可⼩小於等於 **0** (if <=0, then add 0.01-1 to original value) -> [example](https://github.com/chloe0730000/100_Days_ML_Marathon/blob/master/Homework/Day_023_HW.ipynb)
 
 * Day24 Categorical variables processing - label encoding and one-hot encode
 
@@ -157,7 +157,7 @@
 
     <img src="screenshots/categorical_variable_encoding.png">
 
-* Day25 Categorical variables processing - Mean encoding
+* Day25 Categorical variables processing - Mean encoding ([example]([http://localhost:8888/notebooks/Documents/GitHub/100_Days_ML_Marathon/Lecture_Code/Day_025_Mean_Encoder.ipynb](http://localhost:8888/notebooks/Documents/GitHub/100_Days_ML_Marathon/Lecture_Code/Day_025_Mean_Encoder.ipynb)))
   * 我们可以尝试使用**平均数编码（mean encoding）**的编码方法，在贝叶斯的架构下，利用所要预测的应变量（target variable），有监督地确定最适合这个定性特征的编码方式。在Kaggle的数据竞赛中，这也是一种常见的提高分数的手段。
   * when to use: when the variable highly correlated with the target or when a variable that has many categories
   * powerful encoding methods but probably will overfit (use smooth methods) -> use cross validation check score
@@ -168,7 +168,7 @@
   * Can apply together with label encoding
   * 觀察欄位相異值數量:`df.select_dtypes(include=["object"]).apply(pd.Series.nunique)`
 
-* Day27 Time series features
+* Day27 Time series features ([example](https://github.com/chloe0730000/100_Days_ML_Marathon/blob/master/Lecture_Code/Day_027_DayTime_Features.ipynb))
 
   <img src="screenshots/time_series_processing.png">
 
@@ -211,4 +211,10 @@
       df[c] = MMEncoder.fit_transform(df[c].values.reshape(-1, 1))
   ```
 
-  
+* Day32 Leaf encoding (example code: [GDBT+LR]([http://localhost:8888/notebooks/Documents/GitHub/100_Days_ML_Marathon/Lecture_Code/Day_032_Leaf_Encoding.ipynb](http://localhost:8888/notebooks/Documents/GitHub/100_Days_ML_Marathon/Lecture_Code/Day_032_Leaf_Encoding.ipynb)), [RF+LR]([http://localhost:8888/notebooks/Documents/GitHub/100_Days_ML_Marathon/Homework/Day_032_HW.ipynb](http://localhost:8888/notebooks/Documents/GitHub/100_Days_ML_Marathon/Homework/Day_032_HW.ipynb)))
+
+  * 葉編碼 (leaf encoding) 顧名思義，是採⽤用決策樹的葉點作為編碼依據重新編碼  	
+
+    <img src="screenshots/leaf_encoding.png">
+
+  * 實際結果也證明，在分類預測中使⽤用樹狀狀模型，再對這些擬合完的樹狀狀模型進⾏行行葉編碼+邏輯斯迴歸，通常會將預測效果再進⼀一步提升  					 				 			 		
