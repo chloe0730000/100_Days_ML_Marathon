@@ -217,4 +217,13 @@
 
     <img src="screenshots/leaf_encoding.png">
 
-  * 實際結果也證明，在分類預測中使⽤用樹狀狀模型，再對這些擬合完的樹狀狀模型進⾏行行葉編碼+邏輯斯迴歸，通常會將預測效果再進⼀一步提升  					 				 			 		
+  * 實際結果也證明，在分類預測中使⽤用樹狀狀模型，再對這些擬合完的樹狀狀模型進⾏行行葉編碼+邏輯斯迴歸，通常會將預測效果再進⼀一步提升  					 				 			 	
+  
+* Day33 How machine Learn?
+
+  * Overfit problem
+
+  <img src="screenshots/how_to_solve_overfit.png">
+
+  * 決策樹模型就是個非常容易過擬合的模型，必須透過適當的正規化來來緩解過擬合的情形
+  * 
