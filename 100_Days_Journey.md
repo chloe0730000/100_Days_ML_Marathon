@@ -226,4 +226,7 @@
   <img src="screenshots/how_to_solve_overfit.png">
 
   * 決策樹模型就是個非常容易過擬合的模型，必須透過適當的正規化來來緩解過擬合的情形
-  * 
+
+* Day34 Train test split
+
+  * train_test_split, k_fold
