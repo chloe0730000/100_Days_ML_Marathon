@@ -230,3 +230,5 @@
 * Day34 Train test split
 
   * train_test_split, k_fold
+
+* Day35 Regression vs Classification
