@@ -232,3 +232,8 @@
   * train_test_split, k_fold
 
 * Day35 Regression vs Classification
+
+* Day36 Evaluation Metric
+
+  * Regression: Mean absolute error, mean square error, R-square
+  * Classification: AUC, F1 (Precision, Recall)
