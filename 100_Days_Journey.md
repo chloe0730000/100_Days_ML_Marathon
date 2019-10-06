@@ -237,3 +237,12 @@
 
   * Regression: Mean absolute error, mean square error, R-square
   * Classification: AUC, F1 (Precision, Recall)
+  
+* Day37 Regression
+
+  * Linear Regressions
+    * Need to avoid multicollinearity, standardisation
+    * Model baseline
+  * Logistic Regression
+    * Classification model
+    * sigmoid function makes the output results between 0 and 1
