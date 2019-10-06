@@ -246,3 +246,9 @@
   * Logistic Regression
     * Classification model
     * sigmoid function makes the output results between 0 and 1
+
+* Day38 Regression
+  * Logistic Regression
+    * Penalty: L1,L2
+    * C : 正則化的強度，數字越⼩，模型越簡單
+    * Solver : 對損失函數不同的優化⽅方法
