@@ -252,3 +252,10 @@
     * Penalty: L1,L2
     * C : 正則化的強度，數字越⼩，模型越簡單
     * Solver : 對損失函數不同的優化⽅方法
+
+* Day39 Lasso/Ridge
+  * Loss function: 衡量量預測值與實際值的差異異，讓模型能往正確的⽅方向學習
+  * Regularization: 避免模型變得過於複雜，造成過擬合 (Over-fitting)
+  * Lasso -> L1 Regularisation; Ridge -> L2 Regularisation
+  * Lasso can be used as feature selection tools
+  * α=0则和原来的损失函数是一样的，如果α=∞，则损失函数只有正则项，此时其最小化的结果必然是w=0
