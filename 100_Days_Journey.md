@@ -263,3 +263,9 @@
 * Day40 Lasso/Ridge
   * if no overfitting, then no need to use Lasso or ridge since they have penalty term called alpha to control overfitting
   * 當自變數 (X) 存在高度共線性時，Ridge Regression 可以處理這樣的問題嗎? 可以。Ridge Regeression 就是透過 L2 進行權重的 decay，進而減少特徵的共線性帶來的 Over-fitting 情形。後面的課程會提到一種非監督室的方法叫做 PCA, Principal Component Analysis 主成分分析，是一種用來消除特徵具有共線性的方法，而 Ridge Regression 有些地方其實與 PCA 非常類似。
+* Day41 Tree based model
+  * Decision Tree
+    * split the tree by finding the max information gain feature
+    * easy to interpret if the tree not so large
+  * Random forest
+    * Ensemble learning, less chance to get overfit
