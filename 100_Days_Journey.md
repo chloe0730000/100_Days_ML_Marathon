@@ -259,3 +259,6 @@
   * Lasso -> L1 Regularisation; Ridge -> L2 Regularisation
   * Lasso can be used as feature selection tools
   * α=0则和原来的损失函数是一样的，如果α=∞，则损失函数只有正则项，此时其最小化的结果必然是w=0
+
+* Day40 Lasso/Ridge
+  * if no overfitting, then no need to use Lasso or ridge since they have penalty term called alpha to control overfitting
