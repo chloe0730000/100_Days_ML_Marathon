@@ -267,5 +267,7 @@
   * Decision Tree
     * split the tree by finding the max information gain feature
     * easy to interpret if the tree not so large
+    * 如果不對決策樹進行限制，決策樹是可以為每一個訓練樣本找到其對應的規則，就能夠把訓練 loss 降為 ０
+    * 決策樹同樣可以用來做回歸問題，這時評量資料相似程度則會用該群的平均數為每個值計算差距，可以想像標準差要是越小，該群中的樣本越相似
   * Random forest
     * Ensemble learning, less chance to get overfit
