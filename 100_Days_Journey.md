@@ -277,4 +277,9 @@
 
   * [Visualisation decision tree](<https://medium.com/@rnbrown/creating-and-visualizing-decision-trees-with-python-f8e8fa394176>)
 
-    
+* Day43 Random Forest
+
+  * 若若不對決策樹進⾏行行限制 (樹深度、葉⼦子上⾄至少要有多少樣本等)，決策樹非常容易易 Overfitting  
+  * Random Forest
+    * Ensemble learning
+    * 隨機森林林的每⼀一棵樹在⽣生成過程中，都是隨機使⽤用一部份的訓練資料與特徵 代表每棵樹都是⽤隨機的資料訓練⽽而成的
