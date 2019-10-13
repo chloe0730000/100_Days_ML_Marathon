@@ -292,5 +292,10 @@
 * Day45 Gradient Boosting Machine (ex: XGBoost, LGBM)
 
   * Boosting 則是另⼀種集成方法，希望能夠由後⾯生成的樹，來修正前面樹學不好的地方 -> 怎麼修正前⾯學錯的地⽅呢? 計算 Gradient!		
-  *  				 			 		
+
+* Day46  Gradient Boosting Machine		 	
+
+  * [Reference of application](https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/) -> include the grid search detail guide
+
+    
 
