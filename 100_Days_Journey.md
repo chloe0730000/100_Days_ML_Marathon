@@ -297,5 +297,7 @@
 
   * [Reference of application](https://www.analyticsvidhya.com/blog/2016/02/complete-guide-parameter-tuning-gradient-boosting-gbm-python/) -> include the grid search detail guide
 
-    
+* Day47 Parameter Tuning
 
+  *  超參數會影響結果，但提升的效果有限，資料清理與特徵⼯程才能最有效的  提升準確率，調整參數只是一個加分的工具  	
+  * Grid search & Random search				 				 			 		
