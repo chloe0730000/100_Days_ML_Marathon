@@ -300,4 +300,12 @@
 * Day47 Parameter Tuning
 
   *  超參數會影響結果，但提升的效果有限，資料清理與特徵⼯程才能最有效的  提升準確率，調整參數只是一個加分的工具  	
-  * Grid search & Random search				 				 			 		
+  * Grid search & Random search			
+  
+* Day49 Ensemble -> Bagging, boosting, blending, stacking
+
+  <img src='screenshots/ensemble.png'>	
+
+  * Blending
+    * 將不同模型的預測值加權合成
+    * Blending 的前提是 : 個別單模效果都很好(有調參)並且模型差異異⼤，單模要好尤其重要，如果單模效果差異太大，Blending 的效果提升就相當有限
