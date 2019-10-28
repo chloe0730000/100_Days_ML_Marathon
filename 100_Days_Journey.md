@@ -319,3 +319,6 @@
   * 能不能新舊特徵⼀起用，再用模型預測呢? 可以，這裡其實有個有趣的思考，也就是 : 這樣不就可以一直⼀直無限增加特徵下去? 這樣後⾯的特徵還有意義嗎? 不會 Overfitting 嗎?...其實加太多次是會 Overfitting 的，必需謹慎切分 Fold 以及新增次數
 
   * 「分類問題」的 Stacking 要注意兩件事:記得加上 use_probas=True(輸出特徵才會是機率值)，以及輸出的總特徵數會是:模型數量*分類數量(回歸問題特徵數=模型數量) 
+
+* Day54 Clustering
+  * Use case: customer segmentation, market basket analysis, topic modelling
