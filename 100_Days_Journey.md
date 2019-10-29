@@ -4,6 +4,10 @@
   
   Day14- 32: EDA-Feature Importance
   
+  Day33-50: Supervised Learning
+  
+  Day54- : Unsupervised Learning
+  
 * Day 1
   
   * Discovery journey
@@ -321,4 +325,11 @@
   * 「分類問題」的 Stacking 要注意兩件事:記得加上 use_probas=True(輸出特徵才會是機率值)，以及輸出的總特徵數會是:模型數量*分類數量(回歸問題特徵數=模型數量) 
 
 * Day54 Clustering
+
+  * 監督式學習⽬目標在於找出決策邊界; Clustering 的目標在於找出資料結構					 				 			 
+
   * Use case: customer segmentation, market basket analysis, topic modelling
+
+* Day55 K-means
+  * Objective: minimize the within cluster sum of square
+  * Random initialisation: initial 設定的不同,會導致得到不同clustering的結果,導致local optima而非 global optima
