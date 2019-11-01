@@ -7,7 +7,9 @@
   Day33-50: Supervised Learning
   
   Day54- : Unsupervised Learning
-  
+
+
+
 * Day 1
   
   * Discovery journey
@@ -333,6 +335,11 @@
 * Day55 K-means
   * Objective: minimize the within cluster sum of square
   * Random initialisation: initial 設定的不同,會導致得到不同clustering的結果,導致local optima而非 global optima
+  * Need to scale the variables
 * Day56 silhouette_score (輪廓係數)
   * score close to 1 is the best -> 分離度和內聚度相對較優
   * score close to 0 or -1 the worse -> 聚類效果不好 因為組內相似度<<組間相異度
+
+* Day57 Hierarchical Clustering
+  * 只適用於少量資料,大量資料會很難處理
+  * Need to scale the variables
