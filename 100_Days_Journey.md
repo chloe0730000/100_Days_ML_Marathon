@@ -343,3 +343,8 @@
 * Day57 Hierarchical Clustering
   * 只適用於少量資料,大量資料會很難處理
   * Need to scale the variables
+* Day59 PCA
+  * PCA 可以把highly correlated features 移除
+  * Proportion Variance Explained by each principal component -> between 0 and 1
+  * How many principal components to use? -> scree plot find the elbow
+  * 在維度太⼤發生 overfitting 的情況下，可以嘗試用PCA 組成的特徵來做監督式學習，但不建議一開始就做
