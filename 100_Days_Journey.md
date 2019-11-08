@@ -348,3 +348,6 @@
   * Proportion Variance Explained by each principal component -> between 0 and 1
   * How many principal components to use? -> scree plot find the elbow
   * 在維度太⼤發生 overfitting 的情況下，可以嘗試用PCA 組成的特徵來做監督式學習，但不建議一開始就做
+* Day61 T-sne
+  * PCA 是⼀種線性降維⽅式，因此若特徵間是非線性關係 (文字、影像)，會有underfitting 的問題 -> 可以考慮用t-sne 但是執行時間會比較久
+  * 
