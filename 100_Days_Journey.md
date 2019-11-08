@@ -6,7 +6,9 @@
   
   Day33-50: Supervised Learning
   
-  Day54- : Unsupervised Learning
+  Day54-62: Unsupervised Learning (PCA, T-SNE)
+  
+  Day63- : Deep Learning
 
 
 
@@ -353,3 +355,10 @@
   * Perplexity 越高 -> 分群效果越好但是要執行更久
 * Day62 T-sne
   * 流形還原就是在高維度到低維度的對應中，盡量保持資料點之間的遠近關係，沒有資料點的地⽅，就不列入考量範圍 
+
+* Day63 Deep Learning
+
+  <img src="screenshots/neural_network_deep_learning.png">
+
+  * CNN (Convolutional Neural Network): CNN 參考像素遠近省略神經元，並且⽤影像特徵的平移不變性來來共用權重，⼤幅減少了影像計算的負擔 
+  * RNN (Recurrent Neural Network): 只要資料是有順序性的應用，都可以使用 RNN 來計算，近年在自然語言處理 **(NLP)** 上的應⽤反⽽成為⼤宗
