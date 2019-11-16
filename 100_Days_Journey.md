@@ -338,6 +338,7 @@
   * Objective: minimize the within cluster sum of square
   * Random initialisation: initial 設定的不同,會導致得到不同clustering的結果,導致local optima而非 global optima
   * Need to scale the variables
+  
 * Day56 silhouette_score (輪廓係數)
   * score close to 1 is the best -> 分離度和內聚度相對較優
   * score close to 0 or -1 the worse -> 聚類效果不好 因為組內相似度<<組間相異度
@@ -345,17 +346,21 @@
 * Day57 Hierarchical Clustering
   * 只適用於少量資料,大量資料會很難處理
   * Need to scale the variables
+  
 * Day59 PCA
   * PCA 可以把highly correlated features 移除
   * Proportion Variance Explained by each principal component -> between 0 and 1
   * How many principal components to use? -> scree plot find the elbow
   * 在維度太⼤發生 overfitting 的情況下，可以嘗試用PCA 組成的特徵來做監督式學習，但不建議一開始就做
+  
 * Day61 T-sne
   * PCA 是⼀種線性降維⽅式，因此若特徵間是非線性關係 (文字、影像)，會有underfitting 的問題 -> 可以考慮用t-sne 但是執行時間會比較久
   * Perplexity 越高 -> 分群效果越好但是要執行更久
+  
 * Day62 T-sne
-  * 流形還原就是在高維度到低維度的對應中，盡量保持資料點之間的遠近關係，沒有資料點的地⽅，就不列入考量範圍 
-
+  
+* 流形還原就是在高維度到低維度的對應中，盡量保持資料點之間的遠近關係，沒有資料點的地⽅，就不列入考量範圍 
+  
 * Day63 Deep Learning
 
   <img src="screenshots/neural_network_deep_learning.png">
@@ -375,3 +380,5 @@
   * L1 / L2 正規化在非深度學習上效果較明顯，⽽正規化參數較⼩才有效果
 
 * Day66 Keras installation
+
+* Day67 Keras dataset playing
