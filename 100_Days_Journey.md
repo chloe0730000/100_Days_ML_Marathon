@@ -387,3 +387,5 @@
 
   <img src='screenshots/keras.png'>
 
+* Day69 Keras API
+  * 
