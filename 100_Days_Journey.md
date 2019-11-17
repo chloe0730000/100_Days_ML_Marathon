@@ -388,4 +388,4 @@
   <img src='screenshots/keras.png'>
 
 * Day69 Keras API
-  * 
+* Day70 Multi-layer Perception
