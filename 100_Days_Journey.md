@@ -382,3 +382,8 @@
 * Day66 Keras installation
 
 * Day67 Keras dataset playing
+
+* Day68 Keras sequential
+
+  <img src='screenshots/keras.png'>
+
