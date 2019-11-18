@@ -389,3 +389,5 @@
 
 * Day69 Keras API
 * Day70 Multi-layer Perception
+* Day71 Loss Function
+  * 
