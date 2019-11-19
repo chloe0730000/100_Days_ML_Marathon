@@ -388,6 +388,12 @@
   <img src='screenshots/keras.png'>
 
 * Day69 Keras API
+
 * Day70 Multi-layer Perception
+
 * Day71 Loss Function
-  * 
+  
+* Day72 Activation Function
+  
+  * 啟動函數最大作用: 非線性化
+  * 另一個特徵：可分為前行網路與反向傳播網路的網路參數更新,然後相應地使用梯度下降或任何其他優化技術優化權重以減少誤差
